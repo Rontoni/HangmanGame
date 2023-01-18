@@ -1,3 +1,16 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+"""
+Hangman Game 
+"""
+
+from random import choice 
+
+# Words for our game 
+
+words = ['motivation', 'appointment', 'discovery', 'caligraphy', 'rendering', 'linguistics', 'preposterous']
+correct_letters = []
+incorrect_letters = []
+tries = 6
+right_answers = 0 
+game_over = False
+
+
