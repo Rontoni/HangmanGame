@@ -73,14 +73,14 @@ def lose():
 
     return True
 
-#Function for winning the game 
+# Function for winning the game 
 def win(revealed_word):
     show_new_board(revealed_word)
     print("Congratulations, you guessed correctly!")
 
     return True 
 
-#
+# Interface for the game in the terminal
 word, unique_letters = choose_word(words)
 
 while not game_over:
