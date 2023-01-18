@@ -5,7 +5,6 @@ Hangman Game
 from random import choice 
 
 # Words for the game 
-
 words = ['motivation', 'appointment', 'discovery', 'caligraphy', 'rendering',]
 correct_letters = []
 incorrect_letters = []
@@ -27,7 +26,7 @@ def ask_letter():
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
     while not is_valid:
-        chosen_letter = input("Please choose a letter")
+        chosen_letter = input("Please choose a letter:")
 
         if chosen_letter in alphabet and len(chosen_letter) == 1:
             is_valid = True 
@@ -91,5 +90,6 @@ while not game_over:
     print(f'Tries: {tries}')
     print('\n' + '*' * 20 + '\n')
     letter = ask_letter()
-    tries, over, right_answers = check_letter(letter, word, tries, right_answers)
+    tries, over, right_answers = check_letter(letter, word, tries, 
+    right_answers)
     game_over = over
