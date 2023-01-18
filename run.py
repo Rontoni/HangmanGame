@@ -45,3 +45,22 @@ def show_new_board(chosen_word):
             hidden_list.append(l)
         else:
             hidden_list.append('-')
+    print(' '.join(hidden_list))
+
+#Function for checking if the letter entered by the player matches the hidden word and tries left
+def check_letter(chosen_letter, hidden_word, tries, matches):
+    end = False 
+
+    if chosen_letter in hidden_word:
+        correct_letters.append(chosen_letter)
+        matches += 1 
+    else:
+        incorrect_letters.append(chosen_letter)
+        tries -= 1 
+    
+    if tries == 0:
+        end = lose()
+    elif matches == unique_letters:
+        end = win(hidden_word)
+    
+    return tries, end, matches
