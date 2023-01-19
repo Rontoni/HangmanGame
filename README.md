@@ -43,7 +43,7 @@ There are no buggs what I know of
 ### Deployment
 This project was deployed using Code Institutes mock terminal for Heroku.
 Steps for deployment
-- Create a new HEroku app 
+- Create a new Heroku app 
 - Set buildbacks to Python and NodeJS 
 - Link the heroku app to the repository 
 - Click on deploy
