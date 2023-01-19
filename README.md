@@ -2,6 +2,9 @@
 
 Hangman Game is a Python based terminal game running on the code institute mock terminal on Heroku. 
 
+### Livelink to the project
+[https://thehangmangame.herokuapp.com/] 
+
 ### It's a word guessing game!
 
 ## Instructions 
