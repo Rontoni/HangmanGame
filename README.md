@@ -1,31 +1,38 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hangman Game
 
-Welcome Rontoni,
+Hangman Game is a Python based terminal game running on the code institute mock terminal on Heroku. 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+### It's a word guessing game!
 
-## Reminders
+## Instructions 
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+Hangman Game is a classic game where you guess the letter of a word. 
+Guessing it right makes you continue until you have filled out the whole word. 
+Guessing it wrong makes you loose a try, if you guess incorrectly six times it is game over! 
 
-## Creating the Heroku app
+## Features 
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+- Five different words to guess 
+- Counter for the amount of extra lives you have left 
+![screen](https://user-images.githubusercontent.com/115105625/213324924-8fe75fa7-838d-4ae0-abd0-fbb36246ef47.png)
+- Input a letter 
+![screen2](https://user-images.githubusercontent.com/115105625/213325017-61f4e977-4dc4-4871-91f9-53dd3564cc70.png)
+- Continuing inputing letters results in a win or a lose
+- You must enter letters 
 
-1. `heroku/python`
-2. `heroku/nodejs`
+### For the future 
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+- Making parts of a figure appear if the wrong letters are chosen 
+- Extended word selection
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## Testing 
+I tested the game with the following methods: 
+- Play testing it myself, seeing it working as intended
+- Used the PEP8 linter validator 
+![validator](https://user-images.githubusercontent.com/115105625/213325819-b8df6ff9-73dc-40b8-942e-160fa02dc3da.png)
 
-Connect your GitHub repository and deploy as normal.
+### Bugs 
 
-## Constraints
+There are no buggs what I know of 
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+### Deployment
