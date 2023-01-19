@@ -41,3 +41,25 @@ I tested the game with the following methods:
 There are no buggs what I know of 
 
 ### Deployment
+This project was deployed using Code Institutes mock terminal for Heroku.
+Steps for deployment
+- Create a new HEroku app 
+- Set buildbacks to Python and NodeJS 
+- Link the heroku app to the repository 
+- Click on deploy
+
+### Credits 
+- Code institute for the deployment terminal
+- I got inspiration from some tutorials on how to make games in python. 
+
+The sixth option in this article:
+https://favtutor.com/blog-details/7-Python-Projects-For-Beginners
+
+Also the forth option in this article: 
+https://hackr.io/blog/python-projects
+
+And some from this youtube channel:
+https://www.youtube.com/watch?v=8ext9G7xspg&t=906s
+Starting from 24:25
+
+
