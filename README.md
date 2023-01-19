@@ -60,6 +60,7 @@ https://hackr.io/blog/python-projects
 
 And some from this youtube channel:
 https://www.youtube.com/watch?v=8ext9G7xspg&t=906s
+
 Starting from 24:25
 
 
